@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price</title>    
+    <link rel="stylesheet" href="static\css\style.css">
+</head>
+
+<body bgcolor="skyblue">
+    
+
+
+<div align="center">
+    
+    <form action="/action_page" method='post' enctype="multipart/form-data">
+        <label for="img">Select image:</label>
+        <input type="file" id="img" name="file1" accept=".jpeg ,.png ,.jpg">
+        <input type="submit">
+      </form>
+</div>
+
+<p align="center" class="heading">{{saved}}</p>
+
+<form action="/action" method='get' enctype="multipart/form-data">
+    <img src=file1>
+  </form>
+
+
+<p align="center" class="heading">{{ prediction_text }}</p>
+</body>
+</html>
